@@ -1,5 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+body {
+    min-height: 100vh;
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 640px;
+    height: 427px;
+    background-image: url(images/bgimage.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 400px;
+    height: 250px;
+    background-color:rgba(45, 1, 1, 0.63);
+    color: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 20px #0e0000;
+}
+
+h1 {
+    letter-spacing: 1.5px;
+}
+
+/* .container::before {
+    content: "";
+    width: 640px;
+    height: 427px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(238, 229, 229, 0.6);
+} */
